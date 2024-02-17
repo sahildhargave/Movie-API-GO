@@ -1,0 +1,44 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_vendor/
+dist/
+git/
+bin/
+release/
+.idea/
+.vscode/
+
+# Compiled Go binary
+*.exe
+*.test
+*.prof
+*.out
+*.app
+
+# Log files and runtime data
+*.log
+*.log.*
+*.testlog
+
+# Test binary
+test/
+
+# Dependency directories
+vendor/
+
+# Coverage report
+coverage/
+
+# Local configuration files
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
